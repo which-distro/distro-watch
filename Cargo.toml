@@ -1,0 +1,15 @@
+[package]
+name = "distro-watch"
+version = "0.1.0"
+edition = "2021"
+authors = ["which-distro-rs contributors"]
+readme = "README.md"
+license = "GPL-2.0-only"
+repository = "https://github.com/which-distro/distro-watch"
+keywords = ["linux", "distro", "distribution"]
+
+[dependencies]
+anyhow = "1.0.71"
+getset = "0.1.2"
+tokio = "1.28.1"
+voyager = "0.2.1"
