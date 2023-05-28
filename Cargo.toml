@@ -9,7 +9,7 @@ repository = "https://github.com/which-distro/distro-watch"
 keywords = ["linux", "distro", "distribution"]
 
 [dependencies]
-anyhow = "1.0.71"
 getset = "0.1.2"
-tokio = "1.28.1"
-voyager = "0.2.1"
+reqwest = { version = "0.11.18", features = ["json"] }
+serde_json = "1.0.96"
+thiserror = "1.0.40"
